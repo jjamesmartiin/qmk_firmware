@@ -18,6 +18,31 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+<<<<<<< HEAD
+=======
+#include "config_common.h"
+
+#define COMBO_COUNT 8 // Change this number.
+
+/* define tapping term */
+#define TAPPING_TERM 150
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_FORCE_HOLD
+
+#define AUTO_SHIFT_MODIFIERS
+#define AUTO_SHIFT_TIMEOUT 120
+
+// caps word
+#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+#define CAPS_WORD_IDLE_TIMEOUT 3000  // 3 seconds
+
+#define MOUSEKEY_INTERVAL 16
+
+/* key matrix size */
+// Rows are doubled-up
+#define MATRIX_ROWS 10
+#define MATRIX_COLS 7
+>>>>>>> 08117a5e90 (commit base)
 
 // wiring of each half
 #define MATRIX_ROW_PINS { D4, D7, E6, B4, B5 }
@@ -26,8 +51,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define DIODE_DIRECTION COL2ROW
 
+<<<<<<< HEAD
 /* define tapping term */
 #define TAPPING_TERM 120
+=======
+/* define if matrix has ghost */
+//#define MATRIX_HAS_GHOST
+>>>>>>> 08117a5e90 (commit base)
 
 #define AUDIO_PIN C6
 

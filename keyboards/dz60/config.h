@@ -43,3 +43,13 @@
 
 /* VIA related config */
 #define VIA_EEPROM_LAYOUT_OPTIONS_SIZE 2
+
+/* define tapping term */
+#define TAPPING_TERM 130
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_FORCE_HOLD
+// caps word
+#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+#define CAPS_WORD_IDLE_TIMEOUT 5000  // 3 seconds
+
+#define MOUSEKEY_INTERVAL 16
