@@ -1,6 +1,6 @@
 {
   "name": "ErgoDash",
-  "vendorId": "0x6582",
+  "vendorId": "0xFEEA",
   "productId": "0x6060",
   "lighting": "qmk_rgblight",
   "matrix": { "rows": 10, "cols": 7 },
